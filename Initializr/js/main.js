@@ -1,3 +1,6 @@
+var Projekt = Projekt || {};
+Projekt.Nastroje = {};
+
 var ukol1, ukol2, ukol3
 
 ukoly = [
@@ -26,3 +29,56 @@ mePole["ovoce"] = "jablko";
 mePole["vozidlo"] = "tank";
 
 mePole.push("test")
+
+var profil = {
+    krestniJmeno: "Hugo",
+    prijemni: "Chovanec",
+    auto: "Chevrolet"
+};
+
+console.log(profil[0])
+console.log(profil["krestniJmeno"])
+console.log(profil.krestniJmeno)
+
+osoba = {};
+osoba.jmeno = {};
+osoba.jmeno.krestni = "Hugo";
+osoba.jmeno.prijemni = "Reyes";
+console.log(osoba.toString())
+
+function pozdrav(message) {
+    console.log(message);
+}
+
+function celeJmeno() {
+    var krestniJmeno =  "Hugo";
+
+    function vypisCeleJmeno() {
+        var prijmeni = "Reyes";
+
+        console.log("Cele jmeno: " + krestniJmeno + " " + prijmeni);
+    }
+
+    vypisCeleJmeno();
+}
+
+var data = {
+    krestniJmeno: "James",
+    prijemni: "Kirk",
+    povolani: {
+        nazev: "Hvezdna log",
+        pozice: "kapitan"
+    }
+}
+
+for(klic in data) {
+    if(data.hasOwnProperty(klic)) {
+        console.log(klic + " je " + data[klic])
+    }
+}
+
+celeJmeno();
+
+
+// console.log(document.getElementById.toString());
+console.log(celeJmeno.toString());

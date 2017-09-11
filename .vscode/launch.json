@@ -6,7 +6,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "/home/krajcovic/workspace/javascript_tutorials/initializr/index.html",
+            "url": "/home/krajcovic/workspace/javascript_tutorials/Initializr/index.html",
             "webRoot": "${workspaceRoot}"
         }
     ]
