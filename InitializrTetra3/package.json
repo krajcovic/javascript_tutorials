@@ -1,0 +1,14 @@
+{
+  "name": "initializr",
+  "version": "1.0.0",
+  "main": "js//index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
+  }
+}
