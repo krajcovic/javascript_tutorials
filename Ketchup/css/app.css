@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #ffff;
     margin: 0px;
     padding: 0px;
     color: #000;
@@ -18,8 +18,8 @@ body {
     -moz-user-select: none;
     width: 480px;
     height: 320px;
-    background-image: url('../img/bg.png');
-    /* overflow: hidden; */
+    /* background-image: url('../img/bg.png'); */
+    overflow: hidden; 
     font-family: "ingenico";
 }
 
@@ -55,15 +55,15 @@ button.error {
 article header {
     margin-bottom: 5px;
     border-bottom: 1px solid #404041;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.0);
 }
 
-/* article header img {
+ article header img {
     margin: 0px;
     display: block;
     margin-left: auto !important;
     margin-right: auto !important;
-} */
+} 
 
 article section {
     width: 100%;
