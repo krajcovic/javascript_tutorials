@@ -2,6 +2,9 @@ $( "button" ).on("mousedown", function() {
     tetra
     .service({
         service:  'local.transaction.engine',
+        // service: 'local.desktopenv.desktop',
+        //service: 'local.transaction.Bridge',
+        // namespace: 'ingenico.transaction'
         namespace: 'ingenico.transaction'
     })
     .reset()

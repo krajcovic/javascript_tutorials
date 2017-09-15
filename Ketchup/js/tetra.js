@@ -351,6 +351,7 @@
 
                   // if not, returns an error
                   else {
+                      console.log(xmlreq);
                       response = xmlreq && xmlreq.responseText ? JSON.parse(xmlreq.responseText) : null;
                       onError();
                   }
